@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "PT Sans", sans-serif;
+}
+
+.topInfo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-block: 8px;
+}
+.topInfo > p > span{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logincontainer{
+   
+    display: flex;
+}
+
+.logincontent{
+    /* width: 58%; */
+    flex: 1;
+}
+
+.content{
+  
+    width: 400px;
+    margin: auto;
+}
+
+.content > h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.content > p{
+    margin-block: 1rem;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.content > p > A{
+    text-decoration: none;
+    color:#ff8200;
+    font-weight: 700;
+    
+}
+
+
+
+
+/* form styling */
+.input-container{
+    border: 1px solid;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.input-container > input {
+    border: none;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    outline: none;
+}
+
+.input-container > input  ::placeholder {
+    text-transform: capitalize;
+    font-weight: 600;
+    opacity: 0.5;
+    font-size: 0.75rem;
+}
+
+.input-container > i {
+    font-size: 0.75rem;
+    color: grey;
+}
+
+.reset {
+    display: block;
+    text-align: end;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color:   #ff8200;
+    font-weight: 700;
+}
+
+button {
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    margin-block: 0.7rem;
+    padding: 0.7rem 1rem;
+color: #fff;
+font-weight: 600;
+font-size: 1rem;
+background-color: #ff8200;
+}
+
+.register {
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 0.1rem 0.1rem 6px grey;
+}
+
+
+.policy {
+    margin-top: 0.8rem;
+    border: 1px solid;
+    display: block;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    border-radius: 7px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.policy > span {
+    color: #ff8200;
+}
+
+footer {
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+footer > h4 {
+    font-size: 10px;
+}
+.imgcon {
+    justify-content: center;
+    
+}
